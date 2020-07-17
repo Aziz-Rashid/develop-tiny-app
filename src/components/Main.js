@@ -56,19 +56,6 @@ const Main = () => {
             duration: 3000
           }
     });
-    const sceneryFrames5 = [
-        { height: '100%' },
-        { height: '25%' },
-      ];
-      const refBackground5 = useWebAnimations({
-
-        keyframes: sceneryFrames5,
-        timing: {
-            easing: 'ease',
-            duration: 3000,
-            iterations: Infinity
-          }
-    });
     return (
         <div>
 
