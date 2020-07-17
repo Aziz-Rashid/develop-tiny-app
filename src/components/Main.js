@@ -56,6 +56,21 @@ const Main = () => {
             duration: 3000
           }
     });
+    const sceneryFrames5 = [
+        { height: '100%' },
+        { height: '80%' },
+      ]
+    const refBackground5 = useWebAnimations({
+
+        keyframes: sceneryFrames5,
+        timing: {
+            easing: 'ease-in-out',
+            fill: 'both',
+            duration: 3000
+            ,iterations: Infinity
+          }
+    });
+
     return (
         <div>
 
@@ -75,7 +90,7 @@ const Main = () => {
                 </nav>
                 <section>
                     <div className="leftside" ref={refBackground1.ref}>
-                        <img src={Logo}  alt="" />
+                        <img src={Logo}  alt="" ref={refBackground5.ref}/>
                     </div>
                     <div className="rightside" ref={refBackground2.ref}>
                         <h1>PIAIC</h1>

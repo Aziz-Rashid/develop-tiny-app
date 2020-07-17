@@ -4,15 +4,15 @@ import './Main.css'
 import useWebAnimations from "@wellyshen/use-web-animations";
 const Body = () => {
     const sceneryFrames3 = [
-        { transform: 'translateY(30%)' },
-        { transform: 'translateY(-5%)' }   
+        { transform: 'translateY(0%)' },
+        { transform: 'translateY(-20%)' }   
       ]
     const refBackground3 = useWebAnimations({
 
         keyframes: sceneryFrames3,
         timing: {
             easing: 'ease-in-out',
-            duration: 3000,
+            duration: 2000,
             iterations: Infinity
           }
     });

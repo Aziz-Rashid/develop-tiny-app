@@ -98,6 +98,7 @@ padding: 20px 35px ;
 }
 .img{
     width: 480px;
+    margin-top: 100px;
 }
 .anim-typewriter{
   animation: typewriter 9s  1s 1 normal both,
