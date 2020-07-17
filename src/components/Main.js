@@ -1,6 +1,6 @@
 import React from 'react'
 import './Main.css'
-import Logo from './pic.png'
+import Logo from './az.gif'
 import useWebAnimations from "@wellyshen/use-web-animations";
 
 const Main = () => {
@@ -58,7 +58,7 @@ const Main = () => {
     });
     const sceneryFrames5 = [
         { height: '100%' },
-        { height: '75%' },
+        { height: '25%' },
       ];
       const refBackground5 = useWebAnimations({
 
@@ -88,7 +88,7 @@ const Main = () => {
                 </nav>
                 <section>
                     <div className="leftside" ref={refBackground1.ref}>
-                        <img src={Logo}  alt="" ref={refBackground5.ref}/>
+                        <img src={Logo}  alt="" />
                     </div>
                     <div className="rightside" ref={refBackground2.ref}>
                         <h1>PIAIC</h1>
